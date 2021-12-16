@@ -9,7 +9,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>인스타그램 oEmbed 서비스</title>
+    <title>유튜브 oEmbed 서비스</title>
     <link rel="stylesheet" href="/resources/css/common/table.css">
 </head>
 <body>
@@ -35,14 +35,6 @@
             <tr>
                 <th>author_url</th>
                 <td><a href=""></a></td>
-            </tr>
-            <tr>
-                <th>author_id</th>
-                <td></td>
-            </tr>
-            <tr>
-                <th>media_id</th>
-                <td></td>
             </tr>
             <tr>
                 <th>provider_name</th>

@@ -3,7 +3,6 @@ package com.purple.oembed.controller;
 import com.purple.oembed.service.OembedService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,6 +18,11 @@ public class OembedController {
 
     @Autowired
     private OembedService oembedService;
+
+    @GetMapping("/")
+    public String index(){
+        return "index";
+    }
 
     @GetMapping("/find")
     public String findContentInfo(Model model, @RequestParam String url){

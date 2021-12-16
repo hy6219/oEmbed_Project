@@ -9,7 +9,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>인스타그램 oEmbed 서비스</title>
+    <title>트위터 oEmbed 서비스</title>
     <link rel="stylesheet" href="/resources/css/common/table.css">
 </head>
 <body>
@@ -29,28 +29,28 @@
                 <td></td>
             </tr>
             <tr>
-                <th>author_name</th>
-                <td></td>
-            </tr>
-            <tr>
-                <th>author_url</th>
-                <td><a href=""></a></td>
-            </tr>
-            <tr>
-                <th>author_id</th>
-                <td></td>
-            </tr>
-            <tr>
-                <th>media_id</th>
-                <td></td>
-            </tr>
-            <tr>
                 <th>provider_name</th>
                 <td></td>
             </tr>
             <tr>
                 <th>provider_url</th>
                 <td><a href=""></a></td>
+            </tr>
+            <tr>
+                <th>cache_age</th>
+                <td></td>
+            </tr>
+            <tr>
+                <th>author_name</th>
+                <td></td>
+            </tr>
+            <tr>
+                <th>author_url</th>
+                <td></td>
+            </tr>
+            <tr>
+                <th>html</th>
+                <td><iframe src="" frameborder="0"></iframe></td>
             </tr>
             <tr>
                 <th>width</th>
@@ -61,19 +61,7 @@
                 <td></td>
             </tr>
             <tr>
-                <th>html</th>
-                <td><iframe src="" frameborder="0"></iframe></td>
-            </tr>
-            <tr>
-                <th>thumbnail_url</th>
-                <td><img src="" alt=""></td>
-            </tr>
-            <tr>
-                <th>thumbnail_width</th>
-                <td></td>
-            </tr>
-            <tr>
-                <th>thumbnail_height</th>
+                <th>uri</th>
                 <td></td>
             </tr>
         </table>

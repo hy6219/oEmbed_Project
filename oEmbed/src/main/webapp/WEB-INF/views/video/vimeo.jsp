@@ -9,7 +9,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>인스타그램 oEmbed 서비스</title>
+    <title>vimeo oEmbed 서비스</title>
     <link rel="stylesheet" href="/resources/css/common/table.css">
 </head>
 <body>
@@ -29,28 +29,32 @@
                 <td></td>
             </tr>
             <tr>
-                <th>author_name</th>
-                <td></td>
-            </tr>
-            <tr>
-                <th>author_url</th>
-                <td><a href=""></a></td>
-            </tr>
-            <tr>
-                <th>author_id</th>
-                <td></td>
-            </tr>
-            <tr>
-                <th>media_id</th>
-                <td></td>
-            </tr>
-            <tr>
                 <th>provider_name</th>
                 <td></td>
             </tr>
             <tr>
                 <th>provider_url</th>
                 <td><a href=""></a></td>
+            </tr>
+            <tr>
+                <th>author_name</th>
+                <td></td>
+            </tr>
+            <tr>
+                <th>author_url</th>
+                <td></td>
+            </tr>
+            <tr>
+                <th>is_plus</th>
+                <td></td>
+            </tr>
+            <tr>
+                <th>account_type</th>
+                <td></td>
+            </tr>
+            <tr>
+                <th>html</th>
+                <td><iframe src="" frameborder="0"></iframe></td>
             </tr>
             <tr>
                 <th>width</th>
@@ -61,12 +65,16 @@
                 <td></td>
             </tr>
             <tr>
-                <th>html</th>
-                <td><iframe src="" frameborder="0"></iframe></td>
+                <th>duration</th>
+                <td></td>
+            </tr>
+            <tr>
+                <th>description</th>
+                <td></td>
             </tr>
             <tr>
                 <th>thumbnail_url</th>
-                <td><img src="" alt=""></td>
+                <td></td>
             </tr>
             <tr>
                 <th>thumbnail_width</th>
@@ -74,6 +82,22 @@
             </tr>
             <tr>
                 <th>thumbnail_height</th>
+                <td></td>
+            </tr>
+            <tr>
+                <th>thumbnail_url_with_play_button</th>
+                <td><a href=""></a></td>
+            </tr>
+            <tr>
+                <th>upload_date</th>
+                <td></td>
+            </tr>
+            <tr>
+                <th>video_id</th>
+                <td></td>
+            </tr>
+            <tr>
+                <th>uri</th>
                 <td></td>
             </tr>
         </table>

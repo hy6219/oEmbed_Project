@@ -5,14 +5,14 @@ import com.purple.oembed.model.Twitter;
 import com.purple.oembed.model.Vimeo;
 import com.purple.oembed.model.YouTube;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.http.RequestEntity;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.nio.charset.StandardCharsets;
+import java.util.Base64;
 import java.util.HashMap;
 import java.util.Map;
 

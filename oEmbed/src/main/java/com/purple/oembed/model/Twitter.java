@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
 @JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
 public class Twitter {
     private String version;
-    private String uri;
+    private String url;
     private String authorName;
     private String authorUrl;
     private String html;
